@@ -32,11 +32,6 @@ body{
 .fa-user:hover, .fa-envelope:hover, .fa-home:hover, .fa-eye:hover, .fa-github:hover, .fa-linkedin:hover{
     color: greenyellow;
 }
-.jumbotron {
-    margin-top: 200px;
-    background: none;
-}
-
 h1{
     color: #f9f8f8;
     font-size: 60px;
@@ -49,3 +44,16 @@ h4{
     color: #f9f8f8;
     font-size: 20px;  
 }
+.container-fluid{
+    height:100%;
+    display:table;
+    width: 100%;
+    padding: 0;
+  }
+   
+  .row-fluid {height: 100%; display:table-cell; vertical-align: middle;}
+   
+  .centering {
+    float:none;
+    margin:0 auto;
+  }

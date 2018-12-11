@@ -6,16 +6,19 @@ body{
         text-align: center;
         font-size: 120px;
         z-index: -1; 
+        margin-bottom: 60px;
     }
     .box{
         background-color: #3B3D41; 
         padding-top:10px;
+        border-radius: 10px;
     }
     .left{
         background-color: #2D3033;
     }
     .right{
         background-color: greenyellow;
+        position: relative;
     }
     .fa-at, .fa-mobile, .fa-map-marker-alt, .fa-check-square{
         color: greenyellow;   
@@ -40,11 +43,39 @@ body{
     }
     .main-container{
         padding: 40px;
+        padding-bottom: 150px;
     }
     form{
         padding: 20px;
+        border-radius: 10px;
         background-color: #3B3D41;
     }
-    .right{
-        background-image: url(../css/images/yo.jpg)
+    .btn{
+        background-color: #2D3033
     }
+    .right{
+        overflow: hidden;
+    }
+    #image{
+        position: absolute;
+        display: block;
+        right:0;
+        opacity: 0.8;
+        filter:alpha(opacity=80);
+    }
+    .content.inner-top{
+        text-align: center;
+    }
+.text{
+    font-size: 30px;
+}
+.izq{
+background-color: #424649;
+padding: 10px;
+border-radius: 10px;
+}
+.der{
+    background-color: #424649;
+    padding: 10px;
+    border-radius: 10px;
+}

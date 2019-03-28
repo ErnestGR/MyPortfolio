@@ -36,10 +36,6 @@ h1{
     color: #f9f8f8;
     font-size: 60px;
 }
-span{
-    color:#e5e5e5;
-    opacity: 0.6;
-}
 h4{
     color: #f9f8f8;
     font-size: 20px;  
@@ -57,3 +53,16 @@ h4{
     float:none;
     margin:0 auto;
   }
+  span:before{
+    content: 'Web Developer -';
+    animation: animate infinite 6s;
+}
+@Keyframes animate
+{
+    50%{
+content: 'Animator -';
+    }
+}
+strong{
+    opacity: 0.5;
+}

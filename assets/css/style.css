@@ -54,13 +54,13 @@ h4{
     margin:0 auto;
   }
   span:before{
-    content: 'Web Developer -';
+    content: 'a Web Developer -';
     animation: animate infinite 6s;
 }
 @Keyframes animate
 {
     50%{
-content: 'Animator -';
+content: 'an Animator -';
     }
 }
 strong{
